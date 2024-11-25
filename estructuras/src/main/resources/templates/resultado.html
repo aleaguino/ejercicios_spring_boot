@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Resultado</title>
+</head>
+<body>
+    <h1>Hola, <span th:text="${nombre}">Nombre</span></h1>
+    <p>
+        Tienes <span th:text="${edad}">0</span> años,
+        eres <span th:text="${mayorEdad}">...</span>,
+        y seleccionaste el color <span th:text="${color}">Color</span>.
+    </p>
+</body>
+</html>
